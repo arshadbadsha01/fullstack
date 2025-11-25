@@ -1,0 +1,24 @@
+{
+  "name": "practice-html-and-css-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arshadbadsha01/arshad.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/arshadbadsha01/arshad/issues"
+  },
+  "homepage": "https://github.com/arshadbadsha01/arshad#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
