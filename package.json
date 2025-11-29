@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "backend",
   "version": "1.0.0",
   "description": "",
@@ -24,5 +25,29 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.11"
+=======
+  "name": "practice-html-and-css-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev" : "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arshadbadsha01/arshad.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/arshadbadsha01/arshad/issues"
+  },
+  "homepage": "https://github.com/arshadbadsha01/arshad#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+>>>>>>> 5ec6f6ee638555766c9cf7142bb5adc223cd63f8
   }
 }
