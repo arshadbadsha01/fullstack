@@ -1,21 +1,20 @@
-# POST http://localhost:9080/api/user/register
-POST http://localhost:9080/register HTTP/1.1 
-
+# POST http://localhost:9080/register HTTP/1.1 
+POST http://localhost:9080/api/user/register
 Content-Type: application/json 
+
 
 { 
   "name": "rehan", 
   "userName": "rehan", 
   "email": "rehan@gmail.com", 
-  "password": "1234567" 
+  "password": "1234567"
 } 
 
 ### To Login User  
-POST http://localhost:9080/register HTTP/1.1 
+POST http://localhost:9080/api/user/login
+Content-Type: application/json
 
-Content-Type: application/json 
-
-{ 
-    "password":"1234567", 
-    "email":"asif@gmail.com" 
-} 
+{
+  "email": "rehan@gmail.com",
+  "password": "1234567"
+}
